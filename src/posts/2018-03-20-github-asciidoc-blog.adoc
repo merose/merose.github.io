@@ -1,0 +1,24 @@
+//tag::teaser[]
+= Creating a GitHub Pages Blog with Aciidoc
+:revdate: 2018-03-20
+
+ifdef::teaser[]
+[small]#{revdate}# +
+endif::[]
+You can use Jekyll and Markdown with GitHub Pages to automatically format
+your HTML web site. And you can use Jekyll off-line--with some setup--to
+use Asciidoc format. But the setup is somewhat cumbersome, and many of
+the themes are very heavy-weight. I wanted something a bit lighter, closer
+to the page structure, which could be styled solely using CSS. A small
+shell script was sufficient to automatically format a blog web site.
+//end::teaser[]
+
+== Creating the Content of a Post
+
+More to come...
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis pharetra mauris,
+at faucibus libero. Nunc at fermentum tortor, at congue purus. Ut nec tempus quam,
+nec rutrum orci. Donec at imperdiet odio. Cras non nisi tempus, accumsan lectus at,
+rutrum ante. Nulla auctor felis a diam gravida mollis. In efficitur neque quis diam
+rutrum, maximus iaculis lectus sagittis. Proin quis hendrerit risus, id congue diam.

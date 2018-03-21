@@ -1,0 +1,5 @@
+= Ideas Tried and Lessons Learned
+:author: Mark Rose
+:index:
+
+include::post-index.adoc[]

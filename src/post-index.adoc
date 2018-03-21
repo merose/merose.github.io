@@ -1,0 +1,4 @@
+:teaser:
+include::posts/2018-03-20-github-asciidoc-blog.adoc[leveloffset=+1,tags=teaser]
+link:posts/2018-03-20-github-asciidoc-blog.html[Read more]
+

@@ -1,0 +1,17 @@
+#! /bin/bash
+
+mkdir -p ../posts
+rm post-index.adoc
+
+for f in posts/*; do
+    dir=`dirname $f`
+    name=`basename $f .adoc`
+    echo ":teaser:" >>post-index.adoc
+    echo "include::$dir/$name.adoc[leveloffset=+1,tags=teaser]" >>post-index.adoc
+    echo "link:$dir/$name.html[Read more]" >>post-index.adoc
+    echo "" >>post-index.adoc
+
+    asciidoctor --destination-dir ../$dir $f
+done
+
+asciidoctor --destination-dir .. index.adoc
